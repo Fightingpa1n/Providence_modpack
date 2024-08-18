@@ -14,6 +14,34 @@
 .minecraft/resourcepacks/*
 
 # Resourcepacks
+!.minecraft/resourcepacks/backpacked_recipe_fix_datapack.zip
+!.minecraft/resourcepacks/Enhanced_Boss_Bars.zip
+!.minecraft/resourcepacks/GamerAxeRebalance.zip
+!.minecraft/resourcepacks/HardeningCatalystRebalance.zip
+!.minecraft/resourcepacks/HTP-Aether_redux-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Betterarcheology-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Deep_aether-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Invoke-TranslationPack-vunknown.zip
+!.minecraft/resourcepacks/HTP-Minecells-TranslationPack-v1.0.0.zip
+!.minecraft/resourcepacks/HTP-Spell_power-TranslationPack-vunknown.zip
+!.minecraft/resourcepacks/Icons.zip
+!.minecraft/resourcepacks/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip
+!.minecraft/resourcepacks/MandalasGUI+Modded_Dakmode_v4.5.zip
+!.minecraft/resourcepacks/Mandalas_Legacy_Gui_Background.zip
+!.minecraft/resourcepacks/NoBushyLeaves.zip
+!.minecraft/resourcepacks/Providence_Pack/
+!.minecraft/resourcepacks/Providence_Pack/*
+!.minecraft/resourcepacks/Providence_Pack/**
+!.minecraft/resourcepacks/Repurposed_Structures-Farmers_Delight_v6.zip
+!.minecraft/resourcepacks/Repurposed_Structures-Friends_And_Foes_v5.zip
+!.minecraft/resourcepacks/RunicGrimoireDisabler.zip
+!.minecraft/resourcepacks/Scarecrow_Obliterator.zip
+!.minecraft/resourcepacks/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip
+!.minecraft/resourcepacks/SkyVillages-GraveyardCompat-1.20.1-1.0.3.zip
+!.minecraft/resourcepacks/SkyVillages-SupplementariesCompat-1.20.1-1.0.3.1.zip
+!.minecraft/resourcepacks/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip
+!.minecraft/resourcepacks/TravelersComfortCompat.zip
+!.minecraft/resourcepacks/WDA-NoFlyingStructures-1.18.2-1.19.2.zip
 
 
 # Configs Folder
