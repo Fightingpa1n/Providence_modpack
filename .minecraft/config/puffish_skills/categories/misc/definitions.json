@@ -1,0 +1,111 @@
+{
+	"center": {
+		"title": "§aMisc",
+		"description": "The SkillTree Stuff is under construction.",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/ico_stats.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/ico_stats.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"cost": 0, "rewards": []
+	},
+
+	"digspeed": {
+		"title": "§aDig Speed",
+		"description": "Upgrade your dig speed by 10%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/pickaxe.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/pickaxe.png",
+				"locked": "providence:textures/skills/icons/locked/pickaxe.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:mining_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"fortune": {
+		"title": "§aFortune",
+		"description": "will give you chance for more ore drops by 13%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/pickaxe.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/pickaxe.png",
+				"locked": "providence:textures/skills/icons/locked/pickaxe.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.fortune",
+					"value": 0.13,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+
+	"pickup": {
+		"title": "§aPickup Range",
+		"description": "Upgrade your pickup range by 10%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/magnet.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/magnet.png",
+				"locked": "providence:textures/skills/icons/locked/magnet.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.collection_range",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+
+	"range": {
+		"title": "§aRange",
+		"description": "Upgrade your range by 6%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/range.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/range.png",
+				"locked": "providence:textures/skills/icons/locked/range.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "reach-entity-attributes:reach",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+	
+}

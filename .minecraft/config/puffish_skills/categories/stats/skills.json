@@ -1,0 +1,583 @@
+{
+
+        "health_explain": {
+            "definition": "health_explain", "root": true,
+            "x": 0, "y": -96
+        }, 
+        "hp_1": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -160
+        }, 
+        "hp_2": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -192
+        }, 
+        "hp_3": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -224
+        }, 
+        "hp_4": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -256
+        }, 
+        "hp_5": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -288
+        }, 
+        "hp_6": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -320
+        }, 
+        "hp_7": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -352
+        }, 
+        "hp_8": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -384
+        }, 
+        "hp_9": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -416
+        }, 
+        "hp_10": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -448
+        }, 
+        "hp_11": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -480
+        }, 
+        "hp_12": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -512
+        }, 
+        "hp_13": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -544
+        }, 
+        "hp_14": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -576
+        }, 
+        "hp_15": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -608
+        }, 
+        "hp_16": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -640
+        }, 
+        "hp_17": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -672
+        }, 
+        "hp_18": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -704
+        }, 
+        "hp_19": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -736
+        }, 
+        "hp_20": {
+            "definition": "hp", "root": false,
+            "x": -32, "y": -768
+        }, 
+        "regen_1": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -160
+        }, 
+        "regen_2": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -192
+        }, 
+        "regen_3": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -224
+        }, 
+        "regen_4": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -256
+        }, 
+        "regen_5": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -288
+        }, 
+        "regen_6": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -320
+        }, 
+        "regen_7": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -352
+        }, 
+        "regen_8": {
+            "definition": "regen", "root": false,
+            "x": 32, "y": -384
+        }, 
+        "move_explain": {
+            "definition": "move_explain", "root": true,
+            "x": 96, "y": 0
+        }, 
+        "sprint_1": {
+            "definition": "sprint", "root": false,
+            "x": 160, "y": -96
+        }, 
+        "sprint_2": {
+            "definition": "sprint", "root": false,
+            "x": 192, "y": -96
+        }, 
+        "sprint_3": {
+            "definition": "sprint", "root": false,
+            "x": 224, "y": -96
+        }, 
+        "sprint_4": {
+            "definition": "sprint", "root": false,
+            "x": 256, "y": -96
+        }, 
+        "sprint_5": {
+            "definition": "sprint", "root": false,
+            "x": 288, "y": -96
+        }, 
+        "sprint_6": {
+            "definition": "sprint", "root": false,
+            "x": 320, "y": -96
+        }, 
+        "sprint_7": {
+            "definition": "sprint", "root": false,
+            "x": 352, "y": -96
+        }, 
+        "sprint_8": {
+            "definition": "sprint", "root": false,
+            "x": 384, "y": -96
+        }, 
+        "sprint_9": {
+            "definition": "sprint", "root": false,
+            "x": 416, "y": -96
+        }, 
+        "sprint_10": {
+            "definition": "sprint", "root": false,
+            "x": 448, "y": -96
+        }, 
+        "sprint_11": {
+            "definition": "sprint", "root": false,
+            "x": 480, "y": -96
+        }, 
+        "sprint_12": {
+            "definition": "sprint", "root": false,
+            "x": 512, "y": -96
+        }, 
+        "sprint_13": {
+            "definition": "sprint", "root": false,
+            "x": 544, "y": -96
+        }, 
+        "sprint_14": {
+            "definition": "sprint", "root": false,
+            "x": 576, "y": -96
+        }, 
+        "sprint_15": {
+            "definition": "sprint", "root": false,
+            "x": 608, "y": -96
+        }, 
+        "swim_1": {
+            "definition": "swim", "root": false,
+            "x": 160, "y": -32
+        }, 
+        "swim_2": {
+            "definition": "swim", "root": false,
+            "x": 192, "y": -32
+        }, 
+        "swim_3": {
+            "definition": "swim", "root": false,
+            "x": 224, "y": -32
+        }, 
+        "swim_4": {
+            "definition": "swim", "root": false,
+            "x": 256, "y": -32
+        }, 
+        "swim_5": {
+            "definition": "swim", "root": false,
+            "x": 288, "y": -32
+        }, 
+        "swim_6": {
+            "definition": "swim", "root": false,
+            "x": 320, "y": -32
+        }, 
+        "swim_7": {
+            "definition": "swim", "root": false,
+            "x": 352, "y": -32
+        }, 
+        "swim_8": {
+            "definition": "swim", "root": false,
+            "x": 384, "y": -32
+        }, 
+        "swim_9": {
+            "definition": "swim", "root": false,
+            "x": 416, "y": -32
+        }, 
+        "swim_10": {
+            "definition": "swim", "root": false,
+            "x": 448, "y": -32
+        }, 
+        "swim_11": {
+            "definition": "swim", "root": false,
+            "x": 480, "y": -32
+        }, 
+        "swim_12": {
+            "definition": "swim", "root": false,
+            "x": 512, "y": -32
+        }, 
+        "swim_13": {
+            "definition": "swim", "root": false,
+            "x": 544, "y": -32
+        }, 
+        "swim_14": {
+            "definition": "swim", "root": false,
+            "x": 576, "y": -32
+        }, 
+        "jump_1": {
+            "definition": "jump", "root": false,
+            "x": 160, "y": 32
+        }, 
+        "jump_2": {
+            "definition": "jump", "root": false,
+            "x": 192, "y": 32
+        }, 
+        "jump_3": {
+            "definition": "jump", "root": false,
+            "x": 224, "y": 32
+        }, 
+        "jump_4": {
+            "definition": "jump", "root": false,
+            "x": 256, "y": 32
+        }, 
+        "jump_5": {
+            "definition": "jump", "root": false,
+            "x": 288, "y": 32
+        }, 
+        "jump_6": {
+            "definition": "jump", "root": false,
+            "x": 320, "y": 32
+        }, 
+        "jump_7": {
+            "definition": "jump", "root": false,
+            "x": 352, "y": 32
+        }, 
+        "jump_8": {
+            "definition": "jump", "root": false,
+            "x": 384, "y": 32
+        }, 
+        "jump_9": {
+            "definition": "jump", "root": false,
+            "x": 416, "y": 32
+        }, 
+        "jump_10": {
+            "definition": "jump", "root": false,
+            "x": 448, "y": 32
+        }, 
+        "jump_11": {
+            "definition": "jump", "root": false,
+            "x": 480, "y": 32
+        }, 
+        "jump_12": {
+            "definition": "jump", "root": false,
+            "x": 512, "y": 32
+        }, 
+        "roll_1": {
+            "definition": "roll", "root": false,
+            "x": 160, "y": 96
+        }, 
+        "roll_2": {
+            "definition": "roll", "root": false,
+            "x": 192, "y": 96
+        }, 
+        "roll_3": {
+            "definition": "roll", "root": false,
+            "x": 224, "y": 96
+        }, 
+        "roll_4": {
+            "definition": "roll", "root": false,
+            "x": 256, "y": 96
+        }, 
+        "roll_5": {
+            "definition": "roll", "root": false,
+            "x": 288, "y": 96
+        }, 
+        "roll_6": {
+            "definition": "roll", "root": false,
+            "x": 320, "y": 96
+        }, 
+        "defence_explain": {
+            "definition": "defence_explain", "root": true,
+            "x": 0, "y": 96
+        }, 
+        "armor_1": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 160
+        }, 
+        "armor_2": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 192
+        }, 
+        "armor_3": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 224
+        }, 
+        "armor_4": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 256
+        }, 
+        "armor_5": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 288
+        }, 
+        "armor_6": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 320
+        }, 
+        "armor_7": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 352
+        }, 
+        "armor_8": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 384
+        }, 
+        "armor_9": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 416
+        }, 
+        "armor_10": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 448
+        }, 
+        "armor_11": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 480
+        }, 
+        "armor_12": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 512
+        }, 
+        "armor_13": {
+            "definition": "armor", "root": false,
+            "x": 32, "y": 544
+        }, 
+        "toughness_1": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 160
+        }, 
+        "toughness_2": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 192
+        }, 
+        "toughness_3": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 224
+        }, 
+        "toughness_4": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 256
+        }, 
+        "toughness_5": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 288
+        }, 
+        "toughness_6": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 320
+        }, 
+        "toughness_7": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 352
+        }, 
+        "toughness_8": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 384
+        }, 
+        "toughness_9": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 416
+        }, 
+        "toughness_10": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 448
+        }, 
+        "toughness_11": {
+            "definition": "toughness", "root": false,
+            "x": -32, "y": 480
+        }, 
+        "stamina_explain": {
+            "definition": "stamina_explain", "root": true,
+            "x": -96, "y": 0
+        }, 
+        "stamina_1": {
+            "definition": "stamina", "root": false,
+            "x": -160, "y": 64
+        }, 
+        "stamina_2": {
+            "definition": "stamina", "root": false,
+            "x": -192, "y": 64
+        }, 
+        "stamina_3": {
+            "definition": "stamina", "root": false,
+            "x": -224, "y": 64
+        }, 
+        "stamina_4": {
+            "definition": "stamina", "root": false,
+            "x": -256, "y": 64
+        }, 
+        "stamina_5": {
+            "definition": "stamina", "root": false,
+            "x": -288, "y": 64
+        }, 
+        "stamina_6": {
+            "definition": "stamina", "root": false,
+            "x": -320, "y": 64
+        }, 
+        "stamina_7": {
+            "definition": "stamina", "root": false,
+            "x": -352, "y": 64
+        }, 
+        "stamina_8": {
+            "definition": "stamina", "root": false,
+            "x": -384, "y": 64
+        }, 
+        "stamina_9": {
+            "definition": "stamina", "root": false,
+            "x": -416, "y": 64
+        }, 
+        "stamina_10": {
+            "definition": "stamina", "root": false,
+            "x": -448, "y": 64
+        }, 
+        "stamina_11": {
+            "definition": "stamina", "root": false,
+            "x": -480, "y": 64
+        }, 
+        "stamina_12": {
+            "definition": "stamina", "root": false,
+            "x": -512, "y": 64
+        }, 
+        "stamina_13": {
+            "definition": "stamina", "root": false,
+            "x": -544, "y": 64
+        }, 
+        "stamina_14": {
+            "definition": "stamina", "root": false,
+            "x": -576, "y": 64
+        }, 
+        "stamina_15": {
+            "definition": "stamina", "root": false,
+            "x": -608, "y": 64
+        }, 
+        "stamina_16": {
+            "definition": "stamina", "root": false,
+            "x": -640, "y": 64
+        }, 
+        "stamina_17": {
+            "definition": "stamina", "root": false,
+            "x": -672, "y": 64
+        }, 
+        "stamina_18": {
+            "definition": "stamina", "root": false,
+            "x": -704, "y": 64
+        }, 
+        "water_1": {
+            "definition": "water", "root": false,
+            "x": -160, "y": 0
+        }, 
+        "water_2": {
+            "definition": "water", "root": false,
+            "x": -192, "y": 0
+        }, 
+        "water_3": {
+            "definition": "water", "root": false,
+            "x": -224, "y": 0
+        }, 
+        "water_4": {
+            "definition": "water", "root": false,
+            "x": -256, "y": 0
+        }, 
+        "water_5": {
+            "definition": "water", "root": false,
+            "x": -288, "y": 0
+        }, 
+        "water_6": {
+            "definition": "water", "root": false,
+            "x": -320, "y": 0
+        }, 
+        "water_7": {
+            "definition": "water", "root": false,
+            "x": -352, "y": 0
+        }, 
+        "water_8": {
+            "definition": "water", "root": false,
+            "x": -384, "y": 0
+        }, 
+        "water_9": {
+            "definition": "water", "root": false,
+            "x": -416, "y": 0
+        }, 
+        "water_10": {
+            "definition": "water", "root": false,
+            "x": -448, "y": 0
+        }, 
+        "roll_cooldown_1": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -160, "y": -64
+        }, 
+        "roll_cooldown_2": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -192, "y": -64
+        }, 
+        "roll_cooldown_3": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -224, "y": -64
+        }, 
+        "roll_cooldown_4": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -256, "y": -64
+        }, 
+        "roll_cooldown_5": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -288, "y": -64
+        }, 
+        "roll_cooldown_6": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -320, "y": -64
+        }, 
+        "roll_cooldown_7": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -352, "y": -64
+        }, 
+        "roll_cooldown_8": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -384, "y": -64
+        }, 
+        "roll_cooldown_9": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -416, "y": -64
+        }, 
+        "roll_cooldown_10": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -448, "y": -64
+        }, 
+        "roll_cooldown_11": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -480, "y": -64
+        }, 
+        "roll_cooldown_12": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -512, "y": -64
+        }, 
+        "roll_cooldown_13": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -544, "y": -64
+        }, 
+        "roll_cooldown_14": {
+            "definition": "roll_cooldown", "root": false,
+            "x": -576, "y": -64
+        }
+}

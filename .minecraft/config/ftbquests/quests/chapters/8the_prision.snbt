@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8the_prision"
+	group: "3E586F2160161EEA"
+	icon: "graveyard:dark_iron_bars"
+	id: "419EFD597601A50B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35CA4D725D7D2060"]
+			id: "0D23A31DAF3866F4"
+			rewards: [{
+				id: "4A4473CE89392149"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "The portal to the &8Prison &rdimension spawns randomly throughout the &aOverworld&r. If you have, at any point, been in possession of a &bdiamond&r, the portal will already be activated."
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "graveyard:dark_iron_bars"
+				id: "0E868C4F785876CA"
+				type: "dimension"
+			}]
+			title: "&8Enter the Prison"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "056835280827D016"
+			rewards: [
+				{
+					id: "2FCF73BFB5EB1746"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "40247E988E658E5A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Spawns in &1The Lair&r, which can be found underground in the &8Prison &rdimension. To deal damage to the &dConjunctivius&r, you must first kill the tentacles."
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60BB85E2901C9AFB"
+				title: "Defeat Conjunctivius"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&lBossfight: &d&lConjunctivius"
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			id: "35CA4D725D7D2060"
+			shape: "diamond"
+			tasks: [{
+				id: "6749887DA128D21B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "&fObtain a &bDiamond"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D23A31DAF3866F4"]
+			id: "3C8D91F2793CECAD"
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Going through the elevator found in the last floor of the prision will get you to the Promenade.\\n \\n&eIt is suggested to bring a waystone with you to come back to your home."
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:promenade_torch"
+				id: "3D4982DEF40E26A6"
+				title: "Visit the Promenade"
+				type: "dimension"
+			}]
+			title: "&7Enter the &cPromenade"
+			x: 2.4642857142857153d
+			y: 1.5178571428571388d
+		}
+	]
+	title: " &7The Prison"
+}

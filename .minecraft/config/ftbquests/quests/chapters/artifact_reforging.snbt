@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifact_reforging"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "alloy_forgery:block/polished_blackstone_forge_controller_front_on"
+		}
+	}
+	id: "13D4D78DE7B38A80"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "minecraft:block/campfire_fire"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&dRequires completion of &nChapter I&r&d of Void's Invasion."
+				""
+				"&7The Molten Core is a powerful artifact made from the depths of the Cinderstone's Volcano; &cVaaz&7."
+				"&7With it, you can craft powerful and unique artifact weapons that have &especial abilities&7 and bound to your soul, making it only usable by the one that forged it."
+				""
+				"&bEncased Remnants&7 can be used to repair and reforge these weapons. You should also make a &dHardening Crystal&7 to make them unbreakable."
+			]
+			icon: "prominent:molten_core"
+			id: "6AD67E7C8CD78371"
+			rewards: [
+				{
+					id: "5562501929CD8443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "369B6883C30000A8"
+					item: "prominent:encased_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[Click to read lore and instructions]"
+			tasks: [
+				{
+					id: "035441107821B3C1"
+					item: "prominent:molten_core"
+					type: "item"
+				}
+				{
+					id: "56A625D024CDB2DE"
+					item: "things:hardening_catalyst"
+					title: "Make a Hardening Crystal"
+					type: "item"
+				}
+			]
+			title: "&cS'kellak's Forge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eCan be forged using an Essence of Wrath and an Awakened Lichblade, along with the Molten Core."
+				""
+				""
+				"&7This item is a tribute to World of Warcraft's Frostmourne."
+			]
+			id: "341DB238063321BF"
+			shape: "hexagon"
+			subtitle: "A cursed sword that holds the power of an eternal winter. The Frostmourne is a runic artifact infused with soulfrost magic. Legend says whoever wields it will become the ruler of the Death Knights, the Lich King."
+			tasks: [{
+				id: "7F239D03EBB09534"
+				item: {
+					Count: 1b
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eCan be forged using two Molten Edges along with the Molten Core."
+				""
+				""
+				"&7This item is a tribute to World of Warcraft's Fyr'alath."
+			]
+			id: "6D1B83D633AB7558"
+			shape: "hexagon"
+			subtitle: "An agonizing soulfire weapon that gives great resistance to its wielder. Oriented for tanking, but has great fire damage."
+			tasks: [{
+				id: "52D24DAEDFD19F9A"
+				item: {
+					Count: 1b
+					id: "prominent:fyralath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using a Demonic Essence and a Soulrender, along with the Molten Core."]
+			id: "5D03084D09D2A997"
+			shape: "hexagon"
+			subtitle: "&7A'zhar is a demon trapped in a scythe form by S'kellak, making this soulfire weapon no ally, be careful when using it because it will try to betray you."
+			tasks: [{
+				id: "43F5AAA9405EE27D"
+				item: {
+					Count: 1b
+					id: "prominent:azhar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using the Essence of Glory and a Starforge, along with the Molten Core."]
+			id: "1CE7763C1889255C"
+			shape: "hexagon"
+			subtitle: "Forged from remnants of a dying star, the Supernova is an astral weapon that can deal damage using all magic elements, and obliterate any targets with astral bursts."
+			tasks: [{
+				id: "6B6E9C04C7D69E89"
+				item: {
+					Count: 1b
+					id: "prominent:supernova"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: ["&eCan be forged using an Essence of Wrath and a Fist of Fury, along with the Molten Core."]
+			id: "211326D6B6C33A25"
+			shape: "hexagon"
+			subtitle: "This soulfire fist can enrage anyone if also wielding its sister weapon; the Fist of Fury, making it a lethal choice for monks with powerful punches that burn your foes."
+			tasks: [{
+				id: "3D838C3D611886A5"
+				item: {
+					Count: 1b
+					id: "prominent:fury_of_a_thousand_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eCan be forged using a Demonic Essence and a Thunderbrand, along with the Molten Core."
+				""
+				""
+				"&c&nThis artifact will get overhauled in a future update!"
+			]
+			id: "50EB37F863EA810B"
+			shape: "hexagon"
+			subtitle: "A molten polearm infused with lightning, it pierces through armors and electrocutes nearby foes."
+			tasks: [{
+				id: "22CACA94593603A7"
+				item: {
+					Count: 1b
+					id: "prominent:thunderwrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "&c&l S'kellak's Forge"
+}

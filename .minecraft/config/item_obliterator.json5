@@ -1,0 +1,106 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "!kibe:(?!(.*_generator_.*|.*trash_can|.*glider.*|fluid_hopper|heater|dehumidifier|measuring_tape)).*",
+    "techreborn:quantum_helmet",
+    "techreborn:quantum_chestplate",
+    "techreborn:quantum_leggings",
+    "techreborn:quantum_boots",
+    "techreborn:nano_helmet",
+    "techreborn:nano_chestplate",
+    "techreborn:nano_leggings",
+    "techreborn:nano_boots",
+    "techreborn:nanosaber",
+    "modern_industrialization:replicator",
+    "modern_industrialization:quantum_helmet",
+    "modern_industrialization:quantum_chestplate",
+    "modern_industrialization:quantum_leggings",
+    "modern_industrialization:quantum_boots",
+    "modern_industrialization:quantum_sword",
+    "modern_industrialization:quantum_axe",
+    "modern_industrialization:quantum_shovel",
+    "modern_industrialization:quantum_pickaxe",
+    "artifacts:feral_claws",
+    "croptopia:salt_ore",
+    "spellbladenext:whirlwindoil",
+    "spellbladenext:spelloil",
+    "minecells:cursed_sword",
+    "aquamirae:terrible_sword",
+    "things:empty_agglomeration",
+    "soulsweapons:frostmourne",
+    "botania:ender_hand",
+    "mythicupgrades:sapphire_sword",
+    "mythicupgrades:sapphire_axe",
+    "bewitchment:death_protection_poppet",
+    "archon:heaven_dial",
+    "spellbladenext:flickerstrikeoil",
+    "spellbladenext:eviscerateoil",
+    "spellbladenext:finalstrikeoil",
+    "aquamirae:divider",
+    "the_bumblezone:potion_candle",
+    "spellbladenext:smiteoil",
+    "botania:enchanter"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "powah:energy_cable_starter",
+    "powah:energy_cable_basic",
+    "powah:energy_cable_hardened",
+    "powah:energy_cable_blazing",
+    "powah:energy_cable_niotic",
+    "powah:energy_cable_spirited",
+    "powah:energy_cable_nitro",
+    "powah:ender_gate_starter",
+    "powah:ender_gate_basic",
+    "powah:ender_gate_hardened",
+    "powah:ender_gate_blazing",
+    "powah:ender_gate_niotic",
+    "powah:ender_gate_spirited",
+    "powah:ender_gate_nitro"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

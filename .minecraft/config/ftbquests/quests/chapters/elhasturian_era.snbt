@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elhasturian_era"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
+		}
+	}
+	id: "38345D0552E8A4AF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: " &e&lHasturian Era"
+}

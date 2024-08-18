@@ -1,0 +1,96 @@
+{
+  "allowStarterOnJoin": false,
+  "promptStarterOnceOnly": true,
+  "starters": [
+    {
+      "name": "Kanto",
+      "displayName": "cobblemon.starterselection.category.kanto",
+      "pokemon": [
+        "Bulbasaur level=1",
+        "Charmander level=1",
+        "Squirtle level=1"
+      ]
+    },
+    {
+      "name": "Johto",
+      "displayName": "cobblemon.starterselection.category.johto",
+      "pokemon": [
+        "Chikorita level=1",
+        "Cyndaquil level=1",
+        "Totodile level=1"
+      ]
+    },
+    {
+      "name": "Hoenn",
+      "displayName": "cobblemon.starterselection.category.hoenn",
+      "pokemon": [
+        "Treecko level=1",
+        "Torchic level=1",
+        "Mudkip level=1"
+      ]
+    },
+    {
+      "name": "Sinnoh",
+      "displayName": "cobblemon.starterselection.category.sinnoh",
+      "pokemon": [
+        "Turtwig level=1",
+        "Chimchar level=1",
+        "Piplup level=1"
+      ]
+    },
+    {
+      "name": "Unova",
+      "displayName": "cobblemon.starterselection.category.unova",
+      "pokemon": [
+        "Snivy level=1",
+        "Tepig level=1",
+        "Oshawott level=1"
+      ]
+    },
+    {
+      "name": "Kalos",
+      "displayName": "cobblemon.starterselection.category.kalos",
+      "pokemon": [
+        "Chespin level=1",
+        "Fennekin level=1",
+        "Froakie level=1"
+      ]
+    },
+    {
+      "name": "Alola",
+      "displayName": "cobblemon.starterselection.category.alola",
+      "pokemon": [
+        "Rowlet level=1",
+        "Litten level=1",
+        "Popplio level=1"
+      ]
+    },
+    {
+      "name": "Galar",
+      "displayName": "cobblemon.starterselection.category.galar",
+      "pokemon": [
+        "Grookey level=1",
+        "Scorbunny level=1",
+        "Sobble level=1"
+      ]
+    },
+    {
+      "name": "Hisui Bias",
+      "displayName": "cobblemon.starterselection.category.hisui_bias",
+      "pokemon": [
+        "Rowlet region_bias=hisui level=1 pokeball=ancient_poke_ball",
+        "Cyndaquil region_bias=hisui level=1 pokeball=ancient_poke_ball",
+        "Oshawott region_bias=hisui level=1 pokeball=ancient_poke_ball"
+      ]
+    },
+    {
+      "name": "Paldea",
+      "displayName": "cobblemon.starterselection.category.paldea",
+      "pokemon": [
+        "Sprigatito level=1",
+        "Fuecoco level=1",
+        "Quaxly level=1"
+      ]
+    }
+  ]
+}

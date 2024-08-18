@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": true,
+	"exclusive_root": true,
+	"title": "Miscellaneous",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "providence:textures/skills/misc.png"
+		}
+	},
+	"background": {
+		"texture": "providence:textures/skills/bg.png",
+		"width": 768, "height": 768,
+		"position": "tile"
+	} 
+}

@@ -1,0 +1,42 @@
+{
+  "hidePokemonLabel": false,
+  "pokemonTooltips": [
+    {
+      "tooltip": "TITLE_GENDER",
+      "type": "SHOW"
+    },
+    {
+      "tooltip": "HEALTH",
+      "type": "SHOW"
+    },
+    {
+      "tooltip": "TRAINER",
+      "type": "SHOW"
+    },
+    {
+      "tooltip": "TYPES",
+      "type": "SNEAK"
+    },
+    {
+      "tooltip": "REWARD_EVS",
+      "type": "SNEAK"
+    },
+    {
+      "tooltip": "FRIENDSHIP",
+      "type": "SNEAK"
+    },
+    {
+      "tooltip": "NATURE",
+      "type": "SNEAK"
+    },
+    {
+      "tooltip": "ABILITY",
+      "type": "SNEAK"
+    }
+  ],
+  "allowWaystoneTeleport": true,
+  "requireTeleportMove": true,
+  "waystoneMinTeleportLevel": 0,
+  "applyInPVP": false,
+  "allowLunarEventVariants": true
+}

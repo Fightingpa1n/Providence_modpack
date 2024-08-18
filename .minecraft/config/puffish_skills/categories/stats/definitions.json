@@ -1,0 +1,312 @@
+{
+	"health_explain": {
+		"title": "Health",
+		"description": "Upgrade stuff in relation to your health\n§8Unlock this skill to continue\ndon't worry this skill is free ;)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/ico_health.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/ico_health.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"cost": 0, "rewards": []
+	},
+	"hp": {
+		"title": "§aHealth",
+		"description": "Upgrade your health by 1/2 Heart",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/health.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/health.png",
+				"locked": "providence:textures/skills/icons/locked/health.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"regen": {
+		"title": "§aRegeneration",
+		"description": "Upgrade how much health you regenerate by 13%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/health.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/health.png",
+				"locked": "providence:textures/skills/icons/locked/health.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.13,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+
+
+	"move_explain": {
+		"title": "Movement",
+		"description": "Upgrade stuff in relation movement and traversal\n§8Unlock this skill to continue\ndon't worry this skill is free ;)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/ico_move.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/ico_move.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"cost": 0, "rewards": []
+	},
+	"sprint": {
+		"title": "§aSprint",
+		"description": "Upgrade your sprint speed by 5%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/move.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/move.png",
+				"locked": "providence:textures/skills/icons/locked/move.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.sprinting_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"swim": {
+		"title": "§aSwim",
+		"description": "Upgrade your swim speed by 5%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/water.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/water.png",
+				"locked": "providence:textures/skills/icons/locked/water.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.water_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"jump": {
+		"title": "§aJump",
+		"description": "Upgrade your jump height by 4%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/jump.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/jump.png",
+				"locked": "providence:textures/skills/icons/locked/jump.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"roll": {
+		"title": "§aRoll",
+		"description": "Upgrade your roll distance by 17%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/roll.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/roll.png",
+				"locked": "providence:textures/skills/icons/locked/roll.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 0.17,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	
+	"defence_explain": {
+		"title": "Defence",
+		"description": "Upgrade stuff in relation to your Defence and survivability\n§8Unlock this skill to continue\ndon't worry this skill is free ;)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/ico_defence.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/ico_defence.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"cost": 0, "rewards": []
+	},
+	"armor": {
+		"title": "§aArmor",
+		"description": "Upgrade your armor by 5%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/defence.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/defence.png",
+				"locked": "providence:textures/skills/icons/locked/defence.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"toughness": {
+		"title": "§aThoughness",
+		"description": "Upgrade your armor toughness by 5%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/defence.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/defence.png",
+				"locked": "providence:textures/skills/icons/locked/defence.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	
+	"stamina_explain": {
+		"title": "Stamina",
+		"description": "Upgrade stuff in relation to your Stamina or endurance\n§8Unlock this skill to continue\ndon't worry this skill is free ;)",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/ico_stamina.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/ico_stamina.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"cost": 0, "rewards": []
+	},
+	"stamina": {
+		"title": "§aStamina",
+		"description": "Upgrade your stamina by 9%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/stamina.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/stamina.png",
+				"locked": "providence:textures/skills/icons/locked/stamina.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.stamina",
+					"value": 0.09,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"water": {
+		"title": "§aWater Breathing",
+		"description": "Upgrade how much Air you have underwater by 15%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/water.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/water.png",
+				"locked": "providence:textures/skills/icons/locked/water.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.lung_capacity",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"roll_cooldown": {
+		"title": "§aRoll Recovery",
+		"description": "Shorten your roll cooldown by 8%",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"available": "providence:textures/skills/icons/available/roll.png",
+				"unlocked": "providence:textures/skills/icons/unlocked/roll.png",
+				"locked": "providence:textures/skills/icons/locked/roll.png"
+			}
+		},
+		"icon": {"type": "texture","data": {"texture": "providence:textures/skills/icon.png"}},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+	
+}
