@@ -1,0 +1,41 @@
+.minecraft/*
+.minecraft/**
+
+
+# Mods Folder
+!.minecraft/mods/
+.minecraft/mods/*
+
+# Mods
+
+
+# Resourcepacks Folder
+!.minecraft/resourcepacks/
+.minecraft/resourcepacks/*
+
+# Resourcepacks
+
+
+# Configs Folder
+!.minecraft/config/
+.minecraft/config/*
+
+# Configs
+
+
+# DefaultConfigs Folder
+!.minecraft/defaultconfigs/
+.minecraft/defaultconfigs/*
+
+# DefaultConfigs
+
+
+# Shaderpacks Folder
+!.minecraft/shaderpacks/
+.minecraft/shaderpacks/*
+
+# Shaderpacks
+!.minecraft/shaderpacks/ComplementaryReimagined_r5.1.1.zip
+!.minecraft/shaderpacks/TheIdkShader_pleaseSendHelp.zip
+
+
