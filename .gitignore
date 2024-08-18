@@ -462,6 +462,18 @@
 .minecraft/defaultconfigs/*
 
 # DefaultConfigs
+!.minecraft/defaultconfigs/barteringstation-server.toml
+!.minecraft/defaultconfigs/comforts-server.toml
+!.minecraft/defaultconfigs/create-server.toml
+!.minecraft/defaultconfigs/createoreexcavation-server.toml
+!.minecraft/defaultconfigs/easyanvils-server.toml
+!.minecraft/defaultconfigs/openpartiesandclaims-server.toml
+!.minecraft/defaultconfigs/pickupnotifier/
+.minecraft/defaultconfigs/pickupnotifier/*
+!.minecraft/defaultconfigs/pickupnotifier/pickupnotifier-server.toml
+!.minecraft/defaultconfigs/puzzlesapi-iteminteractions-server.toml
+!.minecraft/defaultconfigs/tradingpost-server.toml
+!.minecraft/defaultconfigs/veinmining-server.toml
 
 
 # Shaderpacks Folder
